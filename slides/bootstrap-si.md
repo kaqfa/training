@@ -34,4 +34,57 @@ http://fahrifirdaus.web.id
 
 ### Bootstrap vs Conventional CSS
 
-- 
+- Bootstrap memudahkan kita untuk mengatur layout tanpa harus pusing memikirkan boxing dan positioning
+- Pengaturan layout di bootstrap hanya memerlukan penambahan class spesifik
+- Bootstrap juga menyediakan beberapa komponen tampilan yang siap pakai
+- Termasuk juga icon dan beberapa elemen animasi berbasis javascript
+- Meski demikian, untuk membuat layout kita berbeda dari pengguna bootstrap lain, kita masih memerlukan editing style dengan menggunakan CSS
+
+---
+
+## Web yang akan kita buat
+
+--
+
+### Halaman Login
+
+--
+
+### Halaman Dashboard
+
+--
+
+### Halaman Form Buku
+
+--
+
+### Halaman List Buku
+
+---
+
+### Template Halaman Dengan Boostrap
+
+- ```starter.html``` adalah template kita disini untuk menggunakan bootstrap
+- Kode untuk memasukkan style bootstrap ke dalam halaman kita adalah
+
+```
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+```
+
+- Sedangkan untuk memperkaya fitur, kita juga memasukkan kode javascript
+
+```
+[script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"][/script]
+[script src="bootstrap/js/bootstrap.min.js"][/script]
+```
+
+--
+
+### Oke copy ```starter.html``` menjadi file baru dengan nama ```login.html```
+
+---
+
+## Membuat Halaman Login HTML
+
+-- 
+
