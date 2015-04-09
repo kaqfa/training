@@ -1,0 +1,28 @@
+<div class="page-header">
+   <h1>List Buku
+      <small>Daftar semua koleksi buku yang tersimpan</small>
+   </h1>
+</div>
+
+<button type="submit" class="btn btn-primary">Tambah Buku</button>
+<br /><br />  
+<table class="table table-bordered table-hover">           
+  <thead>
+    <tr>
+       <th>Judul Buku</th>
+       <th>Pengarang</th>
+       <th>Penerbit</th>
+       <th>Kategori</th>
+       <th>Jumlah</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mengarang Indah</td>
+      <td>Indah Poncowati</td>
+      <td>Aneka Ilmu</td>
+      <td>Tulisan</td>
+      <td>90 Eks</td>
+    </tr>
+  </tbody>
+</table>
