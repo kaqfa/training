@@ -101,7 +101,7 @@ http://fahrifirdaus.web.id
 - Copy ```starter.php``` menjadi file baru dengan nama ```login.php```
 - Ganti isi Title menjadi ```Login Aplikasi Perpustakaan```
 - Hapus ```<h1>Hello World!</h1>``` dan ganti sesuai instruksi selanjutnya
-- Karena kita ingin menggunakan navbar untuk bagian atas, copy-kan  template navbar yang ada pada navbar.txt
+- Karena kita ingin menggunakan navbar untuk bagian atas, copy-kan  template navbar yang ada pada **navbar.txt**
 - Untuk merubah warna menjadi hitam, ubah class ```navbar-default``` menjadi ```navbar-inverse```
 - Kemudian untuk membuat navbar selalu di atas, tambahkan class ```navbar-fixed-top```
 
@@ -109,9 +109,9 @@ http://fahrifirdaus.web.id
 
 ### Header Aplikasi dan Form Login
 
-- Di dalam ```div container```, tambahkan kode yang ada pada navbar-header.txt untuk membuat header aplikasi
-- Ganti teks di dalam ```a navbar-brand``` menjadi "SisFo Perpustakaan"
-- Tambahkan juga kode pada navbar-login-form.txt persis di bawah ```div navbar-header```
+- Di dalam ```div container```, tambahkan kode yang ada pada **navbar-header.txt** untuk membuat header aplikasi
+- Ganti teks di dalam ```a navbar-brand``` menjadi **SisFo Perpustakaan**
+- Tambahkan juga kode pada **navbar-login-form.txt** persis di bawah ```div navbar-header```
 - Untuk membuat form berjajar dari kiri ke kanan secara rapi, tambahkan class ```navbar-form navbar-right``` pada ```form```
 - Terakhir untuk merubah warna tombol login, ubah class ```button``` dari ```btn-default``` menjadi ```btn-success```
 
@@ -121,8 +121,8 @@ http://fahrifirdaus.web.id
 
 - Salah satu kelebihan Bootstrap adalam mampu memisahkan lebar halaman menjadi 12 kolom yang dapat dikonfigurasi dengan mudah melalui class
 - Sekarang kita akan membagi konten halaman admin menjadi 2, 8 kolom untuk deskripsi aplikasi dan 4 kolom untuk form registrasi
-- Copy-kan kode pada login-content.txt tepat di bawah elemen ```nav```
-- Untuk melihat bagaimana hasilnya pemisahan ini, copykan sebagian text pada lorem-ipsum.txt ke dalam kedua ```div``` baik yang 8 kolom maupun yang 4 kolom
+- Copy-kan kode pada **login-content.txt** tepat di bawah elemen ```nav```
+- Untuk melihat bagaimana hasilnya pemisahan ini, copykan sebagian text pada **lorem-ipsum.txt** ke dalam kedua ```div``` baik yang 8 kolom maupun yang 4 kolom
 
 --
 
@@ -147,9 +147,9 @@ http://fahrifirdaus.web.id
 ### Carousel &amp; Form
 
 - Sekarang kita mengganti deskripsi abal-abal dengan tampilan gambar &amp; deskripsi dengan animasi Carousel.
-- Tinggal hapus saja deskripsi abal-abal kita dengan kode yang ada pada login-carousel.txt
-- Hapus juga isi teks yang ada pada ```div``` 4 kolom dengan kode pada register-panel.txt
-- Selanjutnya tambahkan kode yang ada pada register-form.txt menggantikan teks "Tempat form nanti"
+- Tinggal hapus saja deskripsi abal-abal kita dengan kode yang ada pada **login-carousel.txt**
+- Hapus juga isi teks yang ada pada ```div``` 4 kolom dengan kode pada **register-panel.txt**
+- Selanjutnya tambahkan kode yang ada pada **register-form.txt** menggantikan teks **Tempat form nanti**
 - Untuk mempercantik tampilan, tambahkan class ```form-control``` pada semua elemen ```input```
 
 --
@@ -169,25 +169,25 @@ http://fahrifirdaus.web.id
 ### Navbar yang Berbeda
 
 - Sekali lagi copy ```starter.php``` menjadi file baru dengan nama ```admin.php```
-- Sama seperti sebelumnya, silahkan ubah title dan menambahkan kode pada navbar.txt dan navbar-header.txt
-- Jangan lupa untuk mengubah Teks Brand menjadi "SisFo Perpustakaan"
-- Kali ini kita ingin navbar lebarnya tidak full, sehingga perlu ditambahkan ```div container``` di luar navbar yang sudah dibuat
-- Kemudian untuk membuat navbar agak turun, tambahkan juga style yang ada pada style-admin.txt di bawah elemen link pemanggil css bootstrap
+- Sama seperti sebelumnya, silahkan ubah title dan menambahkan kode pada **navbar.txt** dan **navbar-header.txt**
+- Jangan lupa untuk mengubah Teks Brand menjadi **SisFo Perpustakaan**
+- Kali ini kita ingin navbar lebarnya tidak full, sehingga perlu ditambahkan ```div.container``` di luar navbar yang sudah dibuat
+- Kemudian untuk membuat navbar agak turun, tambahkan juga style yang ada pada **style-admin.txt** di bawah elemen link pemanggil css bootstrap
 
 --
 
 ### Menu Navbar
 
-- Tambahkan kode pada menu-navbar.txt tepat di bawah elemen ```div navbar-header```  (masih di dalam elemen ```nav```)
+- Tambahkan kode pada **menu-navbar.txt** tepat di bawah elemen ```div.navbar-header```  (masih di dalam elemen ```nav```)
 - Untuk membuat menu tersebut berjajar secara horizontal + style, berikan tambahan class ```nav navbar-nav``` pada ```ul``` pertama saja
-- Sedangkan untuk membuat sub menu menjadi drop down menu, tambahkan class ```dropdown-menu``` pada semua ```ul``` yang menjadi sub menu dari ```li .dropdown```
+- Sedangkan untuk membuat sub menu menjadi drop down menu, tambahkan class ```dropdown-menu``` pada semua ```ul``` yang menjadi sub menu dari ```li.dropdown```
 
 --
 
 ### Menu Navbar Profile
 
 - Dengan cara yang hampir sama dengan menu navbar sebelumnya
-- Tambahkan kode pada menu-profile-navbar.txt tepat di bawah  ```ul``` menu yang telah dibuat sebelumnya
+- Tambahkan kode pada **menu-profile-navbar.txt** tepat di bawah  ```ul``` menu yang telah dibuat sebelumnya
 - Tambahkan class ```nav navbar-nav``` pada ```ul``` pertama dan ```dropdown-menu``` pada ```ul``` yang menjadi sub menu dari ```li .dropdown```
 - Agar alignment dari menu profile dari kanan ke kiri, tambahkan class ```navbar-right``` pada ```ul``` pertama
 
@@ -212,7 +212,7 @@ http://fahrifirdaus.web.id
 - Sepintas menu sudah oke, tapi coba lihat pada layar ukuran kecil (loh kok menunya hilang semua?)
 - Agar menu navigasi dapat beradaptasi dengan baik di mobile, tambahkan class ```navbar-collapse collapse``` pada ```div#navbar```
 - Kemudian untuk trigger penampilnya kita memerlukan tombol yang hanya muncul pada tampilan mobile
-- Tambahkan kode pada toggle-navigation.txt tepat sebelum elemen ```a.navbar-brand``` (masih di dalam elemen ```div.navbar-header```)
+- Tambahkan kode pada **toggle-navigation.txt** tepat sebelum elemen ```a.navbar-brand``` (masih di dalam elemen ```div.navbar-header```)
 
 --- 
 
@@ -232,9 +232,9 @@ http://fahrifirdaus.web.id
 
 ### Membuat Panel Pinggir
 
-- Copy-kan kode yang ada pada side-panel.txt di dalam kolom kanan
+- Copy-kan kode yang ada pada **side-panel.txt** di dalam kolom kanan
 - Tambahkan class ```panel panel-default``` pada div teratas panel tersebut dan tambahkan class ```panel-heading``` pada div di bawahnya.
-- Ganti judul panel dengan "Menu Buku" dan ganti konten menu dengan kode yang terdapat pada side-menu-buku.txt
+- Ganti judul panel dengan **Menu Buku** dan ganti konten menu dengan kode yang terdapat pada **side-menu-buku.txt**
 - Untuk mempercantik tampilan list menu, tambahkan class ```list-group``` pada ```ul``` dan ```list-group-item``` pada ```li```
 - Copy paste panel tersebut untuk membuat panel Menu Anggota dan Menu Transaksi
 
@@ -258,9 +258,9 @@ http://fahrifirdaus.web.id
 
 ### Memisahkan Navbar &amp; Panel
 
-- Buat file admin-navbar.php dan admin-panel.php
-- Cut-Paste kode navbar pada file admin-navbar.php
-- dan Cut-Paste kode panel pada file admin-panel.php
+- Buat file **admin-navbar.php** dan **admin-panel.php**
+- Cut-Paste kode navbar pada file **admin-navbar.php**
+- dan Cut-Paste kode panel pada file **admin-panel.php**
 - Di tempat navbar, masukkan kode PHP
 
 ```
@@ -281,8 +281,8 @@ http://fahrifirdaus.web.id
 
 ### JumboTron untuk Dashboard
 
-- Copy file admin-template.php dengan nama dashboard.php
-- Isikan ```div``` untuk main content dengan kode pada jumbotron.txt
+- Copy file **admin-template.php** dengan nama **dashboard.php**
+- Isikan ```div``` untuk main content dengan kode pada **jumbotron.txt**
 - Tambahkan class ```jumbotron``` pada elemen ```div```
 
 ---
@@ -293,7 +293,7 @@ http://fahrifirdaus.web.id
 
 ### Membuat Form
 
-- Copy file form-buku.txt ke dalam elemen ```div.blog_main```
+- Copy file **form-buku.txt** ke dalam elemen ```div.blog_main```
 - Untuk mempercantik elemen inputan, tambahkan class ```form-control``` pada semua elemen input
 - Untuk membuat tampilan form horizontal, maka kita perlu membagi tampilan elemen form-group menjadi dua, yaitu untuk label dan untuk input
 - Untuk label cukup 2 kolom sedangkan untuk elemen input diberikan 9 kolom.
@@ -325,8 +325,8 @@ http://fahrifirdaus.web.id
 
 ### Menambahkan Tabel
 
-- Seperti biasa, copy dulu admin-template.php menjadi list-buku.php
-- Di dalam elemen ```div.blog_main``` tambahkan semua kode yang ada pada list-buku.txt
+- Seperti biasa, copy dulu **admin-template.php** menjadi **list-buku.php**
+- Di dalam elemen ```div.blog_main``` tambahkan semua kode yang ada pada **list-buku.txt**
 - Untuk mempercantik tampilan tabel tambahkan class ```table table-hover``` pada elemen ```table```
 - Sedangkan untuk mewarnai link "Edit" dan "Delete" tambahkan ```label label-warning``` pada link edit dan ```label label-danger``` pada link hapus
 
