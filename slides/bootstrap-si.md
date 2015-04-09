@@ -1,5 +1,5 @@
-# BOOTSTRAP
-### Tutorial Dasar Untuk Pemula
+## BOOTSTRAP
+## Tutorial Dasar Untuk Pemula
 ### Sistem Informasi *UDINUS*
 
 Presented by: Fahri Firdausillah
@@ -48,17 +48,25 @@ http://fahrifirdaus.web.id
 
 ### Halaman Login
 
+![Halaman Login](./images-si/login.png)
+
 --
 
 ### Halaman Dashboard
+
+![Halaman Dashboard](./images-si/dashboard.png)
 
 --
 
 ### Halaman Form Buku
 
+![Halaman Form Buku](./images-si/form_buku.png)
+
 --
 
 ### Halaman List Buku
+
+![Halaman List Buku](./images-si/list_buku.png)
 
 ---
 
@@ -80,11 +88,35 @@ http://fahrifirdaus.web.id
 
 --
 
-### Oke copy ```starter.html``` menjadi file baru dengan nama ```login.html```
+![Template Starter](./images-si/starter.png)
 
 ---
 
-## Membuat Halaman Login HTML
+## Membuat Halaman Login HTML 
 
--- 
+--
 
+### Kerangka Navbar
+
+- Copy ```starter.html``` menjadi file baru dengan nama ```login.html```
+- Ganti isi Title menjadi ```Login Aplikasi Perpustakaan```
+- Hapus ```<h1>Hello World!</h1>``` dan ganti sesuai instruksi selanjutnya
+- Karena kita ingin menggunakan navbar untuk bagian atas, copy-kan  template navbar yang ada pada navbar.txt
+- Untuk merubah warna menjadi hitam, ubah class ```navbar-default``` menjadi ```navbar-inverse```
+- Kemudian untuk membuat navbar selalu di atas, tambahkan class ```navbar-fixed-top```
+
+--
+
+### Header Aplikasi dan Form Login
+
+- Di dalam ```div container```, tambahkan kode yang ada pada navbar-header.txt untuk membuat header aplikasi
+- Ganti teks di dalam ```a navbar-brand``` menjadi "SisFo Perpustakaan"
+- Tambahkan juga kode pada navbar-login-form.txt persis di bawah ```div navbar-header```
+- Untuk membuat form berjajar dari kiri ke kanan secara rapi, tambahkan class ```navbar-form navbar-right``` pada ```form```
+- Terakhir untuk merubah warna tombol login, ubah class ```button``` dari ```btn-default``` menjadi ```btn-success```
+
+--
+
+### Pisahkan Konten Menjadi 2 Kolom
+
+- 
