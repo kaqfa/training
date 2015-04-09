@@ -278,3 +278,6 @@ http://fahrifirdaus.web.id
 
 ### JumboTron untuk Dashboard
 
+- Copy file admin-template.php dengan nama dashboard.php
+- Isikan ```div``` untuk main content dengan kode pada jumbotron.txt
+- Tambahkan class ```jumbotron``` pada elemen ```div```

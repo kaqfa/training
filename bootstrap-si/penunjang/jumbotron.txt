@@ -1,0 +1,5 @@
+<div class="jumbotron">
+  <h1>Selamat Datang</h1>
+  <p>Nunc ac aliquet nulla, vel mattis ipsum. Nulla vestibulum, ipsum sit amet sagittis porttitor, metus metus viverra mi, ut gravida eros eros sed enim. Sed ac elit elit. Aenean nec vulputate quam. Mauris sit amet odio volutpat est rhoncus aliquam eu at lectus. Aliquam imperdiet mollis lacus sed luctus. Mauris pulvinar eros erat, et dictum urna dapibus id. Nam id lacinia diam, eu euismod nunc. Donec et laoreet est.</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Selengkapnya</a></p>
+</div>
