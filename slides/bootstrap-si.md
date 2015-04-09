@@ -98,7 +98,7 @@ http://fahrifirdaus.web.id
 
 ### Kerangka Navbar
 
-- Copy ```starter.html``` menjadi file baru dengan nama ```login.html```
+- Copy ```starter.php``` menjadi file baru dengan nama ```login.php```
 - Ganti isi Title menjadi ```Login Aplikasi Perpustakaan```
 - Hapus ```<h1>Hello World!</h1>``` dan ganti sesuai instruksi selanjutnya
 - Karena kita ingin menggunakan navbar untuk bagian atas, copy-kan  template navbar yang ada pada navbar.txt
@@ -159,3 +159,25 @@ http://fahrifirdaus.web.id
 - Tampilannya sudah oke
 - Tapi kalau kita buka di perangkat mobile, ada yang aneh
 - Saat ini biarkan saja, nanti kalau ada waktu kita revisi
+
+---
+
+## Membuat Template Admin
+
+--
+
+### Navbar yang Berbeda
+
+- Sekali lagi copy ```starter.php``` menjadi file baru dengan nama ```admin.php```
+- Sama seperti sebelumnya, silahkan ubah title dan menambahkan kode pada navbar.txt dan navbar-header.txt
+- Jangan lupa untuk mengubah Teks Brand menjadi "SisFo Perpustakaan"
+- Kali ini kita ingin navbar lebarnya tidak full, sehingga perlu ditambahkan ```div container``` di luar navbar yang sudah dibuat
+- Kemudian untuk membuat navbar agak turun, tambahkan juga style yang ada pada style-admin.txt di bawah elemen link pemanggil css bootstrap
+
+--
+
+### Menu Navbar
+
+- Tambahkan kode pada menu-navbar.txt tepat di bawah elemen ```div navbar-header```  (masih di dalam elemen ```nav```)
+- Bikin menu jajar horizontal
+- class untuk dropdown dan dropdown menu
