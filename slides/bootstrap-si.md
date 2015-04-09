@@ -244,4 +244,37 @@ http://fahrifirdaus.web.id
 
 ---
 
+### Kerapian Sebagian Dari
+## Pekerjaan Programmer
+
+--
+
+### Merapikan admin-template dengan PHP
+
+- Navbar dan Side Panel akan selalu digunakan pada semua halaman admin
+- Agar tidak menyusahkan kita pada saat copy paste dan membuat main konten, kita dapat memisahkan kedua elemen tersebut ke dalam berbeda dan menggunakan PHP untuk melakukan inklusi
+
+--
+
+### Memisahkan Navbar &amp; Panel
+
+- Buat file admin-navbar.php dan admin-panel.php
+- Cut-Paste kode navbar pada file admin-navbar.php
+- dan Cut-Paste kode panel pada file admin-panel.php
+- Di tempat navbar, masukkan kode PHP
+```
+<?php include("admin-navbar.php"); ?>
+```
+- Juga di tempat panel, masukkan kode PHP
+```
+<?php include("admin-panel.php"); ?>
+```
+
+---
+
+## Membuat Halaman Dashboard
+
+--
+
+### JumboTron untuk Dashboard
 
