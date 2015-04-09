@@ -1,0 +1,36 @@
+<div id="navbar" class="">
+  <ul class="">
+    <li class="active"><a href="#">Dashboard</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        Buku <span class="caret"></span></a>
+      <ul class="" role="menu">
+        <li><a href="#">Tambah Buku</a></li>
+        <li><a href="#">List Buku</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Penggantian Buku</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        Anggota <span class="caret"></span></a>
+      <ul class="" role="menu">
+        <li><a href="#">Tambah Anggota</a></li>
+        <li><a href="#">List Anggota</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Laporan Anggota</a></li>
+      </ul>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+        Transaksi <span class="caret"></span></a>
+      <ul class="" role="menu">
+        <li><a href="#">Peminjaman</a></li>
+        <li><a href="#">Pengembalian</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Laporan Bulanan</a></li>
+        <li><a href="#">Laporan Tahunan</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>

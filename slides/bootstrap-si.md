@@ -179,5 +179,69 @@ http://fahrifirdaus.web.id
 ### Menu Navbar
 
 - Tambahkan kode pada menu-navbar.txt tepat di bawah elemen ```div navbar-header```  (masih di dalam elemen ```nav```)
-- Bikin menu jajar horizontal
-- class untuk dropdown dan dropdown menu
+- Untuk membuat menu tersebut berjajar secara horizontal + style, berikan tambahan class ```nav navbar-nav``` pada ```ul``` pertama saja
+- Sedangkan untuk membuat sub menu menjadi drop down menu, tambahkan class ```dropdown-menu``` pada semua ```ul``` yang menjadi sub menu dari ```li .dropdown```
+
+--
+
+### Menu Navbar Profile
+
+- Dengan cara yang hampir sama dengan menu navbar sebelumnya
+- Tambahkan kode pada menu-profile-navbar.txt tepat di bawah  ```ul``` menu yang telah dibuat sebelumnya
+- Tambahkan class ```nav navbar-nav``` pada ```ul``` pertama dan ```dropdown-menu``` pada ```ul``` yang menjadi sub menu dari ```li .dropdown```
+- Agar alignment dari menu profile dari kanan ke kiri, tambahkan class ```navbar-right``` pada ```ul``` pertama
+
+
+--
+
+### Tambahkan Glyphicon
+
+- Glyphicons merupakan icon standard yang sudah include di dalam bootstrap
+- Cara penggunaannya adalah dengan menambakan elemen ```span``` sebagai berikut:
+
+```
+<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+```
+
+- Mari menambahkan ```glyphicon-user``` di sebelum nama pengguna dan ```glyphicon-log-out``` sebelum kata "logout"
+
+--
+
+### Adaptasi Menu Pada Mobile
+
+- Sepintas menu sudah oke, tapi coba lihat pada layar ukuran kecil (loh kok menunya hilang semua?)
+- Agar menu navigasi dapat beradaptasi dengan baik di mobile, tambahkan class ```navbar-collapse collapse``` pada ```div#navbar```
+- Kemudian untuk trigger penampilnya kita memerlukan tombol yang hanya muncul pada tampilan mobile
+- Tambahkan kode pada toggle-navigation.txt tepat sebelum elemen ```a.navbar-brand``` (masih di dalam elemen ```div.navbar-header```)
+
+--- 
+
+## Menu Pinggir Template Admin
+
+--
+
+### Persiapan (Membagi Konten Menjadi 2 Bagian)
+
+- Template ini nantinya akan digunakan untuk semua aktivitas bagian admin
+- sebab itulah pada bagian konten kita perlu melakukan pembagian terlebih dahulu
+- Bagian 1 sebelah kiri dengan lebar 9 kolom untuk konten utama
+- Bagian 2 sebelah kanan dengan lebar 3 kolom untuk menu pinggir
+- Untuk melakukannya, copy-kan saja kode yang ada pada admin-content.txt tepat di bawah ```nav.navbar```
+
+--
+
+### Membuat Panel Pinggir
+
+- Copy-kan kode yang ada pada side-panel.txt di dalam kolom kanan
+- Tambahkan class ```panel panel-default``` pada div teratas panel tersebut dan tambahkan class ```panel-heading``` pada div di bawahnya.
+- Ganti judul panel dengan "Menu Buku" dan ganti konten menu dengan kode yang terdapat pada side-menu-buku.txt
+- Untuk mempercantik tampilan list menu, tambahkan class ```list-group``` pada ```ul``` dan ```list-group-item``` pada ```li```
+- Copy paste panel tersebut untuk membuat panel Menu Anggota dan Menu Transaksi
+
+--
+
+### Cukup sekian dulu untuk panel pinggir, jika ada waktu kita akan mengubahnya menjadi collapsible panel
+
+---
+
+

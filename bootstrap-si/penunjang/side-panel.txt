@@ -1,0 +1,12 @@
+<div class="">
+  <div class="">
+    <a href="#collapseOne">
+      <h4 class="panel-title"> Menu Title </h4>
+    </a>
+  </div>
+  <div id="collapseOne" class="">
+     <div class="panel-body">
+        Menu Content
+     </div>
+  </div>
+</div>
