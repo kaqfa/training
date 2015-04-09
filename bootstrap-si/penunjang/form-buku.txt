@@ -5,33 +5,33 @@
 </div>
 <form class="form-horizontal" role="form">
  <div class="form-group">
-    <label for="firstname" class="col-sm-2 control-label">Judul Buku</label>
-    <div class="col-sm-9">
-       <input type="text" class="form-control" >
+    <label for="firstname" class="">Judul Buku</label>
+    <div class="">
+       <input type="text" class="" >
     </div>
  </div>
  <div class="form-group">
-    <label for="firstname" class="col-sm-2 control-label">Pengarang</label>
-    <div class="col-sm-9">
-       <input type="text" class="form-control" >
+    <label for="firstname" class="control-label">Pengarang</label>
+    <div class="">
+       <input type="text" class="" >
     </div>
  </div>
  <div class="form-group">
-    <label for="firstname" class="col-sm-2 control-label">ISBN</label>
-    <div class="col-sm-5">
-       <input type="text" class="form-control" >
+    <label for="firstname" class="control-label">ISBN</label>
+    <div class="">
+       <input type="text" class="" >
     </div>              
  </div>
  <div class="form-group">
-    <label for="firstname" class="col-sm-2 control-label">Penerbit</label>
-    <div class="col-sm-9">
-       <input type="text" class="form-control" >
+    <label for="firstname" class="control-label">Penerbit</label>
+    <div class="">
+       <input type="text" class="" >
     </div>
  </div>
  <div class="form-group">
-    <label for="firstname" class="col-sm-2 control-label">Kategori</label>
-    <div class="col-sm-5">
-       <select class="form-control">
+    <label for="firstname" class="control-label">Kategori</label>
+    <div class="">
+       <select class="">
          <option>Agama</option>
          <option>Teknologi</option>
          <option>Komputer</option>
@@ -39,16 +39,16 @@
          <option>Sosial Politik</option>
        </select>
     </div>
-    <label for="firstname" class="col-sm-2 control-label">Jumlah</label>
-    <div class="col-sm-2">
-       <input type="text" class="form-control" >
+    <label for="firstname" class="control-label">Jumlah</label>
+    <div class="">
+       <input type="text" class="" >
     </div>
  </div>           
  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-       <button type="submit" class="btn btn-default">Tambah</button>
-       <button type="submit" class="btn btn-warning">Edit</button>
-       <button type="submit" class="btn btn-danger">Hapus</button>
+    <div class="">
+       <button type="submit" class="">Tambah</button>
+       <button type="submit" class="">Edit</button>
+       <button type="submit" class="">Hapus</button>
     </div>
  </div>
 </form>

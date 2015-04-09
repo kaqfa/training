@@ -262,10 +262,13 @@ http://fahrifirdaus.web.id
 - Cut-Paste kode navbar pada file admin-navbar.php
 - dan Cut-Paste kode panel pada file admin-panel.php
 - Di tempat navbar, masukkan kode PHP
+
 ```
 <?php include("admin-navbar.php"); ?>
 ```
+
 - Juga di tempat panel, masukkan kode PHP
+
 ```
 <?php include("admin-panel.php"); ?>
 ```
@@ -281,3 +284,42 @@ http://fahrifirdaus.web.id
 - Copy file admin-template.php dengan nama dashboard.php
 - Isikan ```div``` untuk main content dengan kode pada jumbotron.txt
 - Tambahkan class ```jumbotron``` pada elemen ```div```
+
+---
+
+## Membuat Form Input &amp; Edit
+
+--
+
+### Membuat Form
+
+- Copy file form-buku.txt ke dalam elemen ```div.blog_main```
+- Untuk mempercantik elemen inputan, tambahkan class ```form-control``` pada semua elemen input
+- Untuk membuat tampilan form horizontal, maka kita perlu membagi tampilan elemen form-group menjadi dua, yaitu untuk label dan untuk input
+- Untuk label cukup 2 kolom sedangkan untuk elemen input diberikan 9 kolom.
+- Tambahkan class ```col-sm-2``` pada elemen ```label``` dan ```col-sm-9``` pada ```div``` bagian input
+
+--
+
+### Kolom Kecil
+
+- Khusus untuk input ISBN  &amp; Kategori, kita cukup alokasikan 5 kolom saja
+- Sedangkan input jumlah lebih kecil lagi, cukup dialokasikan 2 kolom saja
+- Perhatikan, pada koding input kategori  &amp; jumlah saat elemennya diperkecil mereka bisa muat dalam 1 baris
+- Hal tersebut karena kedua elemen tersebut ada dalam ```div.form_group``` yang sama
+
+--
+
+### Mengatur Tampilan Tombol
+
+- Untuk menyesuaikan tampilan tombol dengan tema kita, tambahkan class ```btn btn-default``` pada semua elemen ```button```
+- Jika ingin warna lain, dapat juga menggunakan ```btn-primary```, ```btn-warning```, ```btn-danger```
+- Selanjutnya akan lebih baik jika kita mensejajarkan posisi tombol dengan bagian input bukan bagian label
+- Carannya dapat menambahkan ```col-sm-offset-2 col-sm-10``` pada ```div``` untuk tombol tersebut
+
+---
+
+## Membuat Tampilan List Buku
+
+--
+

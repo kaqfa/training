@@ -33,7 +33,60 @@
 
       <div class="row">
         <div class="col-sm-9 blog-main">
-
+            <div class="page-header">
+               <h1>Form Buku
+                  <small>Form input dan edit data buku</small>
+               </h1>
+            </div>
+            <form class="form-horizontal" role="form">
+             <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">Judul Buku</label>
+                <div class="col-sm-9">
+                   <input type="text" class="form-control" >
+                </div>
+             </div>
+             <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">Pengarang</label>
+                <div class="col-sm-9">
+                   <input type="text" class="form-control" >
+                </div>
+             </div>
+             <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">ISBN</label>
+                <div class="col-sm-5">
+                   <input type="text" class="form-control" >
+                </div>
+             </div>
+             <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">Penerbit</label>
+                <div class="col-sm-9">
+                   <input type="text" class="form-control" >
+                </div>
+             </div>
+             <div class="form-group">
+                <label for="firstname" class="col-sm-2 control-label">Kategori</label>
+                <div class="col-sm-5">
+                   <select class="form-control">
+                     <option>Agama</option>
+                     <option>Teknologi</option>
+                     <option>Komputer</option>
+                     <option>Ekonomi</option>
+                     <option>Sosial Politik</option>
+                   </select>
+                </div>
+                <label for="firstname" class="col-sm-2 control-label">Jumlah</label>
+                <div class="col-sm-2">
+                   <input type="text" class="form-control" >
+                </div>
+             </div>
+             <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                   <button type="submit" class="btn btn-primary">Tambah</button>
+                   <button type="submit" class="btn btn-warning">Edit</button>
+                   <button type="submit" class="btn btn-danger">Hapus</button>
+                </div>
+             </div>
+            </form>
         </div>
 
         <div class="col-sm-3 blog-main">
