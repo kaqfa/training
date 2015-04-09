@@ -117,6 +117,45 @@ http://fahrifirdaus.web.id
 
 --
 
-### Pisahkan Konten Menjadi 2 Kolom
+### Bagi Konten Menjadi 2 Kolom
 
-- 
+- Salah satu kelebihan Bootstrap adalam mampu memisahkan lebar halaman menjadi 12 kolom yang dapat dikonfigurasi dengan mudah melalui class
+- Sekarang kita akan membagi konten halaman admin menjadi 2, 8 kolom untuk deskripsi aplikasi dan 4 kolom untuk form registrasi
+- Copy-kan kode pada login-content.txt tepat di bawah elemen ```nav```
+- Untuk melihat bagaimana hasilnya pemisahan ini, copykan sebagian text pada lorem-ipsum.txt ke dalam kedua ```div``` baik yang 8 kolom maupun yang 4 kolom
+
+--
+
+### Tambahkan Sedikit Style
+
+- Meskipun Bootstrap sudah powerfull, tetap saja ada beberapa bagian yang perlu kita modifikasi secara langsung.
+- Contohnya adalah kontent kita yang masih tumpang tindih dengan navbar.
+- Untuk mengatasinya tambahkan kode berikut di bawah elemen ```link``` deklarasi bootstrap
+
+```
+<style type="text/css">
+    body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+    }
+    #content {margin-top: 30px;}
+</style>
+```
+
+--
+
+### Carousel &amp; Form
+
+- Sekarang kita mengganti deskripsi abal-abal dengan tampilan gambar &amp; deskripsi dengan animasi Carousel.
+- Tinggal hapus saja deskripsi abal-abal kita dengan kode yang ada pada login-carousel.txt
+- Hapus juga isi teks yang ada pada ```div``` 4 kolom dengan kode pada register-panel.txt
+- Selanjutnya tambahkan kode yang ada pada register-form.txt menggantikan teks "Tempat form nanti"
+- Untuk mempercantik tampilan, tambahkan class ```form-control``` pada semua elemen ```input```
+
+--
+
+### Kurang Dikit
+
+- Tampilannya sudah oke
+- Tapi kalau kita buka di perangkat mobile, ada yang aneh
+- Saat ini biarkan saja, nanti kalau ada waktu kita revisi
