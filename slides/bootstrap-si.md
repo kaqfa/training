@@ -323,3 +323,35 @@ http://fahrifirdaus.web.id
 
 --
 
+### Menambahkan Tabel
+
+- Seperti biasa, copy dulu admin-template.php menjadi list-buku.php
+- Di dalam elemen ```div.blog_main``` tambahkan semua kode yang ada pada list-buku.txt
+- Untuk mempercantik tampilan tabel tambahkan class ```table table-hover``` pada elemen ```table```
+- Sedangkan untuk mewarnai link "Edit" dan "Delete" tambahkan ```label label-warning``` pada link edit dan ```label label-danger``` pada link hapus
+
+--
+
+### Tambahkan Tombol Buku Baru
+
+- Pada halaman tampilan list sebaiknya ada tombol penambahan data untuk memudahkan pengguna
+- Hal tersebut dapat dilakukan secara mudah dengan menuliskan kode berikut tepat di atas sebelum elemen ```table```:
+
+```
+<button type="submit" class="btn btn-primary">Tambah Buku</button><br /><br /> 
+```
+
+- Buat tombol sejajar di kanan dengan menambahkan class ```pull-right```
+
+---
+
+## What then ... ?
+
+--
+
+### Pelajari dan praktekkan
+
+- Setelah berhasil mempraktekkan pelatihan ini, langkah selanjutnya adalah mempertajam lagi skill desain web
+- Jika belum paham tentang CSS ini adalah saatnya belajar konsep CSS lebih dalam lagi
+- Jika sudah, cobalah membuat template HTML CSS Javascript
+- Berlatih terus hingga kemampuan kita laku untuk dijual

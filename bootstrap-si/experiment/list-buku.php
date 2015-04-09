@@ -33,7 +33,72 @@
 
       <div class="row">
         <div class="col-sm-9 blog-main">
+            <div class="page-header">
+               <h1>List Buku
+                  <small>Daftar semua koleksi buku yang tersimpan</small>
+               </h1>
+            </div>
 
+            <button type="submit" class="btn btn-primary pull-right">Tambah Buku</button><br /><br />
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Judul Buku</th>
+                        <th>Pengarang</th>
+                        <th>Penerbit</th>
+                        <th>Kategori</th>
+                        <th>Jumlah</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mengarang Indah</td>
+                        <td>Indah Poncowati</td>
+                        <td>Aneka Ilmu</td>
+                        <td>Tulisan</td>
+                        <td>90 Eks</td>
+                        <td> <a href="#" class="label label-warning">Edit</a> |
+                      <a href="#" class="label label-danger">Hapus</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Belajar Komputer</td>
+                        <td>Nurudin Nasution</td>
+                        <td>Gramedia</td>
+                        <td>Komputer</td>
+                        <td>10 Eks</td>
+                        <td> <a href="#" class="label label-warning">Edit</a> |
+                            <a href="#" class="label label-danger">Hapus</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Pemrograman Dasar</td>
+                        <td>Rinaldi Munir</td>
+                        <td>Informatika</td>
+                        <td>Pemrograman</td>
+                        <td>20 Eks</td>
+                        <td> <a href="#" class="label label-warning">Edit</a> |
+                        <a href="#" class="label label-danger">Hapus</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Bootstrap Untuk Pemula</td>
+                        <td>Muhammad Rizka</td>
+                        <td>Gramedia</td>
+                        <td>Pemrograman</td>
+                        <td>25 Eks</td>
+                        <td> <a href="#" class="label label-warning">Edit</a> |
+                        <a href="#" class="label label-danger">Hapus</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Provisioning Ansible</td>
+                        <td>Dan Greg</td>
+                        <td>O'Reilly</td>
+                        <td>Jaringan</td>
+                        <td>2 Eks</td>
+                        <td> <a href="#" class="label label-warning">Edit</a> |
+                        <a href="#" class="label label-danger">Hapus</a> </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
         <div class="col-sm-3 blog-main">
